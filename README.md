@@ -1,6 +1,6 @@
 # SimpleContrastiveLearning
 Self-supervised (Semi-supervised) learning technique which trains a CNN model with unlabeled data set to improve a task-agnostic or task specific representation learning 
-| Contrastive Representation Learning            Pretrained weights     |                                                |
+| Contrastive Representation Learning          | Pretrained weights     |                                                |
 |----------------------------------------------|------------------------|
 | Logistic regression with logit dimension 10  | [LogisticRegression_10](https://drive.google.com/file/d/1eN9RHzBn69Il9dxy0zIARKrnJhxo_SxE/view?usp=sharing) |
 | Logistic regression with logit dimension 20  | [LogisticRegression_20](https://drive.google.com/file/d/1ZNvXnofGR4StzBFoewr65BqzIokrrDyO/view?usp=sharing) |
