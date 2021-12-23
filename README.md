@@ -3,7 +3,7 @@ Self-supervised (Semi-supervised) learning technique which trains a CNN model wi
 <b>Quick look at original idea and concept: <b> 
   - SimpleCRLv1 paper here <a href="https://arxiv.org/pdf/2002.05709.pdf">https://arxiv.org/pdf/2002.05709.pdf</a> 
   - SimpleCRLv2 paper here <a href='https://arxiv.org/pdf/2006.10029.pdf'>https://arxiv.org/pdf/2006.10029.pdf</a>
-  - Original authors implementation <a href = "https://github.com/google-research/simclr">https://github.com/google-research/simclr</a>
+  - Original authors implementation <a href = "https://github.com/google-research/simclr">https://github.com/google-research/simclr</a><br>
   
   
 | Contrastive Representation Learning            Pretrained weights     |                                                |
