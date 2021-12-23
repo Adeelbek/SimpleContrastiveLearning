@@ -21,7 +21,7 @@ We also used STL10 dataset to perform self-supervised training over unlabeled im
   
 | <b> Images per class <b>   |<b> Test Acc.<b>  | 
 |----------------------------|------------------|
-| 10 `                       |       62.7%      |
+| 10                         |       62.7%      |
 | 20                         |       68.6%      |
 | 50                         |       74.4%      |
 | 100                        |       77.2%      |
