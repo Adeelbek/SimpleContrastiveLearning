@@ -19,7 +19,7 @@ Quick look at original idea and concept:
 Current repository contains all necessary function and pretrained models for only ResNet50 model. User can freely modefy the code and try larger or smaller models.
 We also used STL10 dataset to perform self-supervised training over unlabeled image data. STL10 dataset is already provided in `data/` directory. Following table contains test accuracy for various number of images per class.
   
-| <b> Images per class <b>   |<b> Test Acc.<b>  | 
+| <b> Images per class <b>    <b> Test Acc.<b>  | 
 |----------------------------|------------------|
 | 10                         |       62.7%      |
 | 20                         |       68.6%      |
@@ -27,8 +27,8 @@ We also used STL10 dataset to perform self-supervised training over unlabeled im
 | 100                        |       77.2%      |
 | 200                        |       79.1%      |
 | 500                        |       81.3%      |
-<br> 
-Followings are main system requirement on Linux PC:
+  
+# Followings are main system requirement on Linux PC:
   ```
   python > 3.7
   pytorch >= 1.7
