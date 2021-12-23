@@ -1,6 +1,10 @@
 # Simple Contrastive Representation Learning Technique to Improve Task-Agnostic Model Performance with Unlabeled Dataset
 Self-supervised (Semi-supervised) learning technique which trains a CNN model with unlabeled data to improve a task-agnostic/task-specific representation learning.<br>
-<b>Quick look at original idea and concept <b> SimpleCRLv1 paper here <a href="https://arxiv.org/pdf/2002.05709.pdf">https://arxiv.org/pdf/2002.05709.pdf</a> and here SimpleCRLv2 paper here <a href='https://arxiv.org/pdf/2006.10029.pdf'>https://arxiv.org/pdf/2006.10029.pdf</a>
+<b>Quick look at original idea and concept: <b> 
+  - SimpleCRLv1 paper here <a href="https://arxiv.org/pdf/2002.05709.pdf">https://arxiv.org/pdf/2002.05709.pdf</a> 
+  - SimpleCRLv2 paper here <a href='https://arxiv.org/pdf/2006.10029.pdf'>https://arxiv.org/pdf/2006.10029.pdf</a>
+  
+  
 | Contrastive Representation Learning            Pretrained weights     |                                                |
 |----------------------------------------------|------------------------|
 | Logistic regression with logit dimension 10  | [LogisticRegression_10](https://drive.google.com/file/d/1eN9RHzBn69Il9dxy0zIARKrnJhxo_SxE/view?usp=sharing) |
