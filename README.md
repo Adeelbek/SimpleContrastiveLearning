@@ -27,3 +27,9 @@ We also used STL10 dataset to perform self-supervised training over unlabeled im
 | 100                        |       77.2%      |
 | 200                        |       79.1%      |
 | 500                        |       81.3%      |
+followings are main system requirement on Linux PC:
+  -`python > 3.7`
+  - 'pytorch >= 1.7`
+  - `pytorch-lightning >= 1.4`
+  
+To execute inference, run following command from home directory `python main.py`
