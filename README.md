@@ -14,3 +14,16 @@ Self-supervised (Semi-supervised) learning technique which trains a CNN model wi
 | Logistic regression with logit dimension 100 | [LogisticRegression_100](https://drive.google.com/file/d/10jyzLyr-q02RfqyFAOLdadwAKhLWP5pi/view?usp=sharing) |
 | Logistic regression with logit dimension 200 | [LogisticRegression_200](https://drive.google.com/file/d/1I91fb-JB17nZpgnM7vZbdR8uzN-vYxUb/view?usp=sharing) |
 | Logistic regression with logit dimension 500 | [LogisticRegression_500](https://drive.google.com/file/d/1HIPVP2NwTKc40ez4VjrQ-D4Dpvtl0qJH/view?usp=sharing) |
+
+## Performance of simple ResNet50 model on classification task
+Current repository contains all necessary function and pretrained models for only ResNet50 model. User can freely modefy the code and try larger or smaller models.<br>
+We also used STL10 dataset to perform self-supervised training over unlabeled image data. STL dataset is already provided in `data/` directory. Following table contains test accuracy for various number of images per class.<br>
+  
+| <b> Images per class <b>   |<b> Test Acc.<b>  | 
+|----------------------------|------------------|
+| 10 `                       |       62.7%      |
+| 20                         |       68.6%      |
+| 50                         |       74.4%      |
+| 100                        |       77.2%      |
+| 200                        |       79.1%      |
+| 500                        |       81.3%      |
