@@ -19,7 +19,7 @@ Quick look at original idea and concept:
 Current repository contains all necessary function and pretrained models for only ResNet50 model. User can freely modefy the code and try larger or smaller models.
 We also used STL10 dataset to perform self-supervised training over unlabeled image data. STL10 dataset is already provided in `data/` directory. Following table contains test accuracy for various number of images per class.
   
-|  Images per class                  Test Acc.  | 
+|  Images per class          |     Test Acc.    | 
 |----------------------------|------------------|
 | 10                         |       62.7%      |
 | 20                         |       68.6%      |
