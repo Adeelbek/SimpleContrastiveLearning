@@ -1,4 +1,4 @@
-# SimpleContrastiveLearning
+# Simple Contrastive Representation Learning Technique to Improve Task-Agnostic Model Performance with Unlabeled Dataset
 Self-supervised (Semi-supervised) learning technique which trains a CNN model with unlabeled data to improve a task-agnostic/task-specific representation learning 
 | Contrastive Representation Learning            Pretrained weights     |                                                |
 |----------------------------------------------|------------------------|
