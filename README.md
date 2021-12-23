@@ -3,7 +3,7 @@ Self-supervised (Semi-supervised) learning technique which trains a CNN model wi
 <b>Quick look at original idea and concept: <b> 
   - SimpleCRLv1 paper here <a href="https://arxiv.org/pdf/2002.05709.pdf">https://arxiv.org/pdf/2002.05709.pdf</a> 
   - SimpleCRLv2 paper here <a href='https://arxiv.org/pdf/2006.10029.pdf'>https://arxiv.org/pdf/2006.10029.pdf</a>
-  - Original authors implementation <a href = "https://github.com/google-research/simclr">https://github.com/google-research/simclr</a><br>
+  - Original authors implementation <a href = "https://github.com/google-research/simclr">https://github.com/google-research/simclr</a>
   
   
 | Contrastive Representation Learning            Pretrained weights     |                                                |
@@ -14,7 +14,7 @@ Self-supervised (Semi-supervised) learning technique which trains a CNN model wi
 | Logistic regression with logit dimension 100 | [LogisticRegression_100](https://drive.google.com/file/d/10jyzLyr-q02RfqyFAOLdadwAKhLWP5pi/view?usp=sharing) |
 | Logistic regression with logit dimension 200 | [LogisticRegression_200](https://drive.google.com/file/d/1I91fb-JB17nZpgnM7vZbdR8uzN-vYxUb/view?usp=sharing) |
 | Logistic regression with logit dimension 500 | [LogisticRegression_500](https://drive.google.com/file/d/1HIPVP2NwTKc40ez4VjrQ-D4Dpvtl0qJH/view?usp=sharing) |
-<br>
+
 # Performance of simple ResNet50 model on classification task.<br>
 Current repository contains all necessary function and pretrained models for only ResNet50 model. User can freely modefy the code and try larger or smaller models.
 We also used STL10 dataset to perform self-supervised training over unlabeled image data. STL dataset is already provided in `data/` directory. Following table contains test accuracy for various number of images per class.
